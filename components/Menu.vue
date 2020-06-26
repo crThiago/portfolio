@@ -1,5 +1,5 @@
 <template>
-  <nav class="menu bg--white shadown--inset">
+  <nav class="menu d--inline-block bg--white shadown--inset">
     <ul>
       <li class="d--inline">
         <a class="active" href="#">Home</a>
@@ -16,7 +16,6 @@
 
 <style lang="scss">
 .menu {
-  display: inline-block;
   margin-top: 20px;
   padding: 20px 30px;
   border-radius: 50px;

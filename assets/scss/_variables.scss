@@ -1,0 +1,41 @@
+$primary: #41B883;
+$secondary: #35495E;
+
+$white: #fff;
+$gray: #4f5959;
+
+$colors: ();
+$colors: map-merge(
+  (
+    'primary': $primary,
+    'secondary': $secondary,
+    'white': $white,
+    'gray': $gray
+  ),
+  $colors
+);
+
+// FONT SIZE
+$font-sum: 0.5;
+$h3: 1.5em;
+$h2: $h3 + $font-sum;
+$h1: $h2 + $font-sum;
+
+$fonts-size: ();
+$fonts-size: map-merge(
+  (
+    'h3': $h3,
+    'h2': $h2,
+    'h1': $h1,
+  ),
+  $fonts-size
+);
+
+
+// DISPLAYS
+$displays: (
+  'inline',
+  'inline-block',
+  'block',
+  'flex'
+);
