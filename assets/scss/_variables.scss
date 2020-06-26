@@ -12,21 +12,17 @@ $colors: (
 );
 
 // FONT SIZE
-$font-sum: 0.5;
+$font-sum: 0.5em;
 $h3: 1.5em;
 $h2: $h3 + $font-sum;
 $h1: $h2 + $font-sum;
 
-$fonts-size: ();
-$fonts-size: map-merge(
-  (
-    'h3': $h3,
-    'h2': $h2,
-    'h1': $h1,
-  ),
-  $fonts-size
+@debug $h1;
+$fonts-size: (
+  'h3': $h3,
+  'h2': $h2,
+  'h1': $h1
 );
-
 
 // DISPLAYS
 $displays: (

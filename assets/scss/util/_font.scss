@@ -3,3 +3,13 @@
     font-size: $value;
   }
 }
+
+.font--bold {
+  font-weight: bold;
+}
+
+@each $color, $value in $colors {
+  .color--#{$color} {
+    color: $value;
+  }
+}
