@@ -4,15 +4,11 @@ $secondary: #35495E;
 $white: #fff;
 $gray: #4f5959;
 
-$colors: ();
-$colors: map-merge(
-  (
+$colors: (
     'primary': $primary,
     'secondary': $secondary,
     'white': $white,
     'gray': $gray
-  ),
-  $colors
 );
 
 // FONT SIZE
