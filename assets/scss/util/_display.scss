@@ -1,5 +1,5 @@
 @each $display in $displays {
   .d--#{$display} {
-    display: inline;
+    display: #{$display};
   }
 }
