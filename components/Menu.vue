@@ -2,13 +2,19 @@
   <nav class="menu d--inline-block bg--white sdw--inset">
     <ul class="d--flex">
       <li class="d--inline">
-        <a class="active" href="#">Home</a>
+        <nuxt-link to="/">
+          Home
+        </nuxt-link>
       </li>
       <li class="d--inline">
-        <a href="#">Portfolio</a>
+        <nuxt-link to="/portfolio">
+          Portfólio
+        </nuxt-link>
       </li>
       <li class="d--inline">
-        <a href="#">Blog</a>
+        <nuxt-link to="/blog">
+          Blog
+        </nuxt-link>
       </li>
     </ul>
   </nav>
