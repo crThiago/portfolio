@@ -1,6 +1,6 @@
 <template>
   <nav class="menu d--inline-block bg--white sdw--inset">
-    <ul>
+    <ul class="d--flex">
       <li class="d--inline">
         <a class="active" href="#">Home</a>
       </li>
@@ -16,12 +16,13 @@
 
 <style lang="scss">
 .menu {
+  width: 300px;
   margin-top: 20px;
   padding: 20px 30px;
   border-radius: 50px;
 
-  & li {
-    margin: 0 30px;
+  & ul {
+    justify-content: space-between;
 
     & .active {
       font-weight: bold;
