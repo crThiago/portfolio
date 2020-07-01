@@ -1,9 +1,10 @@
 <template>
   <div class="container d--flex flex--column">
-    <div class="header d--flex">
+    <Header />
+    <!-- <div class="header d--flex">
       <Menu />
       <Social />
-    </div>
+    </div> -->
     <section class="home d--flex">
       <div class="home__description">
         <h1 class="home__description__title font--h1 font--bold color--white">
@@ -25,19 +26,7 @@
   max-width: 1200px;
   height: 100vh;
   margin: 0 auto;
-  padding: 20px;
-}
-.header {
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-}
-
-@media (max-width: 480px) {
-  .header {
-    justify-content: center;
-    margin: 20px 0;
-  }
+  padding: 0 20px;
 }
 
 .home {
@@ -56,7 +45,7 @@
     width: 50vw;
     text-align: right;
     & > img {
-      width: 75%;
+      width: 55%;
       border-radius: 15px;
       border: 5px solid;
     }
@@ -65,6 +54,7 @@
 @media (max-width: 900px) {
   .container {
     height: auto;
+    padding: 20px;
   }
 
   .home {
