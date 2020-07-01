@@ -1,10 +1,6 @@
 <template>
   <div class="container d--flex flex--column">
     <Header />
-    <!-- <div class="header d--flex">
-      <Menu />
-      <Social />
-    </div> -->
     <section class="home d--flex">
       <div class="home__description">
         <h1 class="home__description__title font--h1 font--bold color--white">
@@ -14,7 +10,7 @@
           Sou programador FullStack Web, mais especificamente na linguagem PHP
         </h2>
       </div>
-      <div class="home__image">
+      <div class="home__image text--right">
         <img class="d--inline border--secondary" src="https://avatars3.githubusercontent.com/u/33141686?s=460&u=0081b9777c63192214cc88ece924e244a817d090&v=4" alt="">
       </div>
     </section>
@@ -22,13 +18,6 @@
 </template>
 
 <style lang="scss">
-.container {
-  max-width: 1200px;
-  height: 100vh;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .home {
   flex-grow: 1;
   align-items: center;
@@ -43,7 +32,6 @@
 
   &__image {
     width: 50vw;
-    text-align: right;
     & > img {
       width: 55%;
       border-radius: 15px;
@@ -52,11 +40,6 @@
   }
 }
 @media (max-width: 900px) {
-  .container {
-    height: auto;
-    padding: 20px;
-  }
-
   .home {
     flex-wrap: wrap-reverse;
     text-align: center;
