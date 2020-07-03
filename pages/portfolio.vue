@@ -2,7 +2,7 @@
   <div class="container">
     <Header />
     <main class="portfolio">
-      <h1 class="portfolio__title text--center font--h1 font--bold color--white">
+      <h1 class="title-page">
         Portfólio
       </h1>
       <div>
