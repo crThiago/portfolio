@@ -32,6 +32,8 @@
 
 <style lang="scss" scoped>
 .card {
+  max-width: 350px;
+  margin: 20px 10px;
   border-radius: 5px;
   overflow: hidden;
 

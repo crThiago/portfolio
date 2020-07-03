@@ -10,7 +10,9 @@
           Filter
         </div>
       </div>
-      <div class="portfolio__cards justify--space-between flex--wrap">
+      <div class="portfolio__cards justify--space-around flex--wrap">
+        <CardPortfolio />
+        <CardPortfolio />
         <CardPortfolio />
         <CardPortfolio />
         <CardPortfolio />
