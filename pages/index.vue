@@ -1,5 +1,5 @@
 <template>
-  <div class="container d--flex flex--column">
+  <div class="container h-100 d--flex flex--column">
     <Header />
     <section class="home d--flex">
       <div class="home__description">
