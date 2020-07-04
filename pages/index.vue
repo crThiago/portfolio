@@ -18,6 +18,25 @@
   </div>
 </template>
 
+<script>
+export default {
+  head () {
+    return {
+      title: 'Conheça um pouco sobre mim - programador Front-end e Back-end',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content: `Tenho experiência com a criação de sites, e-commerces / loja Virtuais, sistemas e muito mais, 
+          confira meu portólio`
+        }
+      ]
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 .home {
   flex-grow: 1;
