@@ -4,10 +4,11 @@
     <section class="home d--flex">
       <div class="home__description">
         <h1 class="home__description__title font--h1 font--bold color--white">
-          Olá, me chamo Thiago
+          Programador <strong>Front-end</strong> & <strong>Back-end</strong>
         </h1>
-        <h2 class="font--h2 font--bold color--secondary">
-          Sou programador FullStack Web, mais especificamente na linguagem PHP
+        <h2 class="home__description__subtitle font--h2 font--bold color--secondary">
+          Me chamo Thiago Costa tenho 30 anos e trabalho como desenvolvedor web a 6 anos,
+          tenho graduação no curso de Engenharia de Computação pela Unopar de Londrina - PR.
         </h2>
       </div>
       <div class="home__image text--right">
@@ -23,10 +24,15 @@
   align-items: center;
 
   &__description {
-    width: 50vw;
+    width: 70vw;
 
     &__title {
+      line-height: 50px;
       margin: 30px 0;
+    }
+
+    &__subtitle {
+      line-height: 50px
     }
   }
 
