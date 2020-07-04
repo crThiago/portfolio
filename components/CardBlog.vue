@@ -6,7 +6,7 @@
     <div class="card__content">
       <Info />
       <h2 class="card__title font--h3 text--justify font--bold color--secondary">
-        JavaScript Best Practices for Readable and Maintainable Code
+        JavaScript Best Practices for Readable and Maintainable Cod
       </h2>
     </div>
   </nuxt-link>
