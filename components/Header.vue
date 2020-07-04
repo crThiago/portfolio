@@ -10,12 +10,13 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap-reverse;
+  height: 100px;
 }
 
 @media (max-width: 480px) {
   .header {
     justify-content: center;
-    margin: 20px 0;
+    height: 145px;
   }
 }
 </style>

@@ -4,4 +4,10 @@
     font-size: $h1;
     font-weight: bold;
     color: white;
+
+    &--post {
+        margin: 140px auto 75px auto;
+        max-width: 900px;
+        line-height: 60px;
+    }
 }
