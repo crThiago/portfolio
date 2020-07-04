@@ -14,6 +14,8 @@
 
 <style lang="scss" scoped>
 .card {
+  transition: scale 1s, box-shadow 1s;
+
   &__info {
     margin: 10px 0;
     align-items: center;
@@ -29,6 +31,11 @@
 
   &__title {
     margin: 10px 0;
+  }
+
+  &:hover {
+    scale: 1.1;
+    box-shadow: 0 0 14px #33333334;
   }
 }
 </style>
