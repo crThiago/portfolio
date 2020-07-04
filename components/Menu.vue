@@ -7,7 +7,7 @@
         </nuxt-link>
       </li>
       <li class="d--inline">
-        <nuxt-link to="/portfolio">
+        <nuxt-link to="/portfoliopage">
           Portfólio
         </nuxt-link>
       </li>
