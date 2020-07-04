@@ -2,17 +2,17 @@
   <nav class="menu d--inline-block bg--white sdw--inset">
     <ul class="d--flex">
       <li class="d--inline">
-        <nuxt-link to="/">
+        <nuxt-link class="link" to="/">
           Home
         </nuxt-link>
       </li>
       <li class="d--inline">
-        <nuxt-link to="/portfoliopage">
+        <nuxt-link class="link" to="/portfoliopage">
           Portfólio
         </nuxt-link>
       </li>
       <li class="d--inline">
-        <nuxt-link to="/blog">
+        <nuxt-link class="link" to="/blog">
           Blog
         </nuxt-link>
       </li>
@@ -29,10 +29,18 @@
 
   & ul {
     justify-content: space-between;
-
-    & .active {
-      font-weight: bold;
-    }
   }
+}
+.link {
+  font-weight: 100;
+  transition: font-weight .4s ease-in-out;
+
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+.nuxt-link-exact-active {
+  font-weight: bold;
 }
 </style>
