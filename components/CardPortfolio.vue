@@ -5,30 +5,42 @@
     </div>
     <div class="card__content">
       <h2 class="card__title font--h3 text--center font--bold color--secondary">
-        Sistema ERP
+        {{ project.name }}
       </h2>
       <div class="justify--space-between">
         <span class="font--small">
           Empresa
           <a href="" class="font--bold color--primary">
-            Mídia Interativa
+            {{ project.company.name }}
           </a>
         </span>
         <span class="font--small">
-          2017 - Atual
+          {{ project.date.start }} - {{ project.date.end }}
         </span>
       </div>
       <p class="card__tech-title font--small text--center">
         Tech
       </p>
       <div class="card__techs justify--space-around">
-        <a href=""><img src="~/assets/images/laravel.svg" alt=""></a>
+        <img v-for="tech of project.techs" :key="tech" :src="'/_nuxt/assets/images/' + tech + '.svg'" :alt="tech">
+        <!-- <a href=""><img src="~/assets/images/laravel.svg" alt=""></a>
         <a href=""><img src="~/assets/images/php.svg" alt=""></a>
-        <a href=""><img src="~/assets/images/graphql.svg" alt=""></a>
+        <a href=""><img src="~/assets/images/graphql.svg" alt=""></a> -->
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    project: {
+      type: Object,
+      required: true
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .card {
