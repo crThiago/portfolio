@@ -2,15 +2,15 @@
   <div class="filter">
     <div class="filter__techs justify--center">
       <a class="tech" href="">
-        <img class="tech__image" src="~/assets/images/laravel.svg" alt="">
+        <img class="tech__image" src="~/assets/images/techs/laravel.svg" alt="">
         <span class="tech__name color--white font--bold">Laravel</span>
       </a>
       <a class="tech" href="">
-        <img class="tech__image" src="~/assets/images/php.svg" alt="">
+        <img class="tech__image" src="~/assets/images/techs/php.svg" alt="">
         <span class="tech__name color--white font--bold">PHP</span>
       </a>
       <a class="tech" href="">
-        <img class="tech__image" src="~/assets/images/graphql.svg" alt="">
+        <img class="tech__image" src="~/assets/images/techs/graphql.svg" alt="">
         <span class="tech__name color--white font--bold">GraphQL</span>
       </a>
     </div>

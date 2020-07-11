@@ -4,9 +4,9 @@
       June 17
     </span>
     <span class="info__techs justify--space-around flex--wrap">
-      <a href=""><img src="~/assets/images/laravel.svg" alt=""></a>
-      <a href=""><img src="~/assets/images/php.svg" alt=""></a>
-      <a href=""><img src="~/assets/images/graphql.svg" alt=""></a>
+      <a href=""><img src="~/assets/images/techs/laravel.svg" alt=""></a>
+      <a href=""><img src="~/assets/images/techs/php.svg" alt=""></a>
+      <a href=""><img src="~/assets/images/techs/graphql.svg" alt=""></a>
     </span>
   </div>
 </template>

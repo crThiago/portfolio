@@ -34,7 +34,22 @@ export default {
             start: '2017',
             end: 'Atual'
           },
-          techs: ['css', 'jquery', 'php']
+          techs: ['html-css', 'jquery', 'php']
+        },
+        {
+          slug: 'anuance',
+          name: 'Nuance',
+          resume: 'Novas Implementações e Criação da versão 3.0',
+          link: 'https://www.anuance.com.br',
+          company: {
+            name: 'Nuance',
+            link: 'https://www.anuance.com.br'
+          },
+          date: {
+            start: '2020',
+            end: '2020'
+          },
+          techs: ['bootstrap', 'wordpress']
         },
         {
           slug: 'ecommerce-esinstrumentos',
@@ -49,7 +64,7 @@ export default {
             start: '',
             end: ''
           },
-          techs: ['bootstrap', 'workcontrol', 'rest']
+          techs: ['bootstrap', 'workcontrol']
         },
         {
           slug: 'sistema-uninova',
@@ -64,7 +79,7 @@ export default {
             start: '',
             end: ''
           },
-          techs: ['php', 'css', 'jquery']
+          techs: ['html-css', 'jquery', 'php']
         },
         {
           slug: 'sistema-petra',
@@ -79,7 +94,7 @@ export default {
             start: '',
             end: ''
           },
-          techs: ['php', 'css', 'jquery']
+          techs: ['html-css', 'jquery', 'php']
         },
         {
           slug: 'sistema-sintras',
@@ -94,7 +109,7 @@ export default {
             start: '',
             end: ''
           },
-          techs: ['php', 'css', 'jquery']
+          techs: ['html-css', 'jquery', 'php']
         },
         {
           slug: 'casasanta',
@@ -109,7 +124,7 @@ export default {
             start: '',
             end: ''
           },
-          techs: ['css', 'jquery']
+          techs: ['html-css', 'jquery']
         },
         {
           slug: 'tectapetes',
@@ -124,7 +139,7 @@ export default {
             start: '',
             end: ''
           },
-          techs: ['css', 'jquery']
+          techs: ['html-css', 'jquery']
         }
       ]
     }

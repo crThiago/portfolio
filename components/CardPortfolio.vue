@@ -22,10 +22,7 @@
         Tech
       </p>
       <div class="card__techs justify--space-around">
-        <img v-for="tech of project.techs" :key="tech" :src="'/_nuxt/assets/images/' + tech + '.svg'" :alt="tech">
-        <!-- <a href=""><img src="~/assets/images/laravel.svg" alt=""></a>
-        <a href=""><img src="~/assets/images/php.svg" alt=""></a>
-        <a href=""><img src="~/assets/images/graphql.svg" alt=""></a> -->
+        <img v-for="tech of project.techs" :key="tech" :src="techimage(tech)" :alt="tech">
       </div>
     </div>
   </div>
@@ -38,6 +35,9 @@ export default {
       type: Object,
       required: true
     }
+  },
+  methods: {
+    techimage: tech => require(`~/assets/images/techs/${tech}.svg`)
   },
   computed: {
     thumbnail () {
