@@ -1,16 +1,16 @@
 <template>
   <div class="card bg--white sdw">
     <div class="card__image">
-      <img src="https://picsum.photos/300/200" alt="">
+      <img :src="thumbnail" :alt="project.name">
     </div>
     <div class="card__content">
       <h2 class="card__title font--h3 text--center font--bold color--secondary">
-        {{ project.name }}
+        <a :href="project.link" target="_blank" rel="nofollow noopener noreferrer">{{ project.name }}</a>
       </h2>
       <div class="justify--space-between">
         <span class="font--small">
           Empresa
-          <a href="" class="font--bold color--primary">
+          <a :href="project.company.link" class="font--bold color--primary" target="_blank" rel="nofollow noopener noreferrer">
             {{ project.company.name }}
           </a>
         </span>
@@ -37,6 +37,11 @@ export default {
     project: {
       type: Object,
       required: true
+    }
+  },
+  computed: {
+    thumbnail () {
+      return require(`~/assets/images/portfolio/${this.project.slug}.jpeg`)
     }
   }
 }
