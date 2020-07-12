@@ -1,6 +1,5 @@
 <template>
   <div class="card bg--white sdw">
-    <div class="card__resume"></div>
     <div class="card__image">
       <img :src="thumbnail" :alt="project.name">
     </div>
@@ -26,6 +25,10 @@
         <img v-for="tech of project.techs" :key="tech" :src="techimage(tech)" :alt="tech">
       </div>
     </div>
+    <span class="card__resume" />
+    <p class="resume__text">
+      {{ project.resume }}
+    </p>
   </div>
 </template>
 
@@ -67,6 +70,10 @@ export default {
     &:hover {
       transform: scale(55);
       transition: all .3s;
+      &  + .resume__text {
+          opacity: 1;
+          transition: all 0.4s;
+      }
     }
   }
 
@@ -105,5 +112,16 @@ export default {
       width: 34px;
     }
   }
+}
+.resume__text {
+  position: absolute;
+  opacity: 0;
+  z-index: 5;
+  top: 0px;
+  padding: 15px;
+  font-size: 1.5em;
+  line-height: 49px;
+  font-weight: bolder;
+  color: white;
 }
 </style>

@@ -17,7 +17,7 @@ export default [
   {
     slug: 'anuance',
     name: 'Nuance',
-    resume: 'Novas Implementações e Criação da versão 3.0',
+    resume: 'Criação de site',
     link: 'https://www.anuance.com.br',
     company: {
       name: 'Nuance',

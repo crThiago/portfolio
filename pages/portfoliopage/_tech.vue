@@ -30,7 +30,11 @@ export default {
   },
   computed: {
     projectsFilter () {
-      return this.projects.filter(p => p.techs.find(t => this.tech === t))
+      if (this.tech) {
+        return this.projects.filter(p => p.techs.find(t => this.tech === t))
+      } else {
+        return this.projects
+      }
     }
   },
   head () {

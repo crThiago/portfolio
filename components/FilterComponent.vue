@@ -1,7 +1,7 @@
 <template>
   <div class="filter">
     <div class="filter__techs justify--center">
-      <nuxt-link v-for="tech of techs" :key="tech.slug" class="tech" :class="active" :to="`/portfoliopage/${tech.slug}`">
+      <nuxt-link v-for="tech of techs" :key="tech.slug" class="tech" :to="`/portfoliopage/${tech.slug}`">
         <img class="tech__image" :src="techimage(tech.slug)">
         <span class="tech__name color--white font--bold">{{ tech.name }}</span>
       </nuxt-link>
