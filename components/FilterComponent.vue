@@ -1,21 +1,27 @@
 <template>
   <div class="filter">
     <div class="filter__techs justify--center">
-      <a class="tech" href="">
-        <img class="tech__image" src="~/assets/images/techs/laravel.svg" alt="">
-        <span class="tech__name color--white font--bold">Laravel</span>
-      </a>
-      <a class="tech" href="">
-        <img class="tech__image" src="~/assets/images/techs/php.svg" alt="">
-        <span class="tech__name color--white font--bold">PHP</span>
-      </a>
-      <a class="tech" href="">
-        <img class="tech__image" src="~/assets/images/techs/graphql.svg" alt="">
-        <span class="tech__name color--white font--bold">GraphQL</span>
-      </a>
+      <nuxt-link v-for="tech of techs" :key="tech.slug" class="tech" :to="`/portfoliopage/${tech.slug}`">
+        <img class="tech__image" :src="techimage(tech.slug)">
+        <span class="tech__name color--white font--bold">{{ tech.name }}</span>
+      </nuxt-link>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    techs: {
+      required: true,
+      type: Object
+    }
+  },
+  methods: {
+    techimage: tech => require(`~/assets/images/techs/${tech}.svg`)
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .filter {
