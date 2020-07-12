@@ -46,8 +46,8 @@ export default {
             link: 'https://www.anuance.com.br'
           },
           date: {
-            start: '2020',
-            end: '2020'
+            start: 'Abril / 2020',
+            end: 'Maio / 2020'
           },
           techs: ['bootstrap', 'wordpress']
         },
@@ -61,40 +61,10 @@ export default {
             link: 'https://www.midiainterativa.com.br'
           },
           date: {
-            start: '',
-            end: ''
+            start: 'junho / 2019',
+            end: 'julho / 2019'
           },
           techs: ['bootstrap', 'workcontrol']
-        },
-        {
-          slug: 'sistema-uninova',
-          name: 'Uninova Saúde',
-          resume: 'Criação de sistema de cadastro, agendamento de consultas, histórico de consultas, controle de financeiro e mais...',
-          link: 'https://uninovasaude.com.br/',
-          company: {
-            name: 'Rem Soft',
-            link: 'https://www.remsoft.com.br/'
-          },
-          date: {
-            start: '',
-            end: ''
-          },
-          techs: ['html-css', 'jquery', 'php']
-        },
-        {
-          slug: 'sistema-petra',
-          name: 'Petra Gestão',
-          resume: 'Criação de sistema de workflow para contratação de novos colaboradores para as empresas parceiras',
-          link: 'https://www.petracorporate.com.br/',
-          company: {
-            name: '',
-            link: ''
-          },
-          date: {
-            start: '',
-            end: ''
-          },
-          techs: ['html-css', 'jquery', 'php']
         },
         {
           slug: 'sistema-sintras',
@@ -106,8 +76,38 @@ export default {
             link: 'https://www.midiainterativa.com.br'
           },
           date: {
-            start: '',
-            end: ''
+            start: 'Março / 2017',
+            end: 'Março / 2017'
+          },
+          techs: ['html-css', 'jquery', 'php']
+        },
+        {
+          slug: 'sistema-uninova',
+          name: 'Uninova Saúde',
+          resume: 'Criação de sistema de cadastro, agendamento de consultas, histórico de consultas, controle de financeiro e mais...',
+          link: 'https://uninovasaude.com.br/',
+          company: {
+            name: 'Rem Soft',
+            link: 'https://www.remsoft.com.br/'
+          },
+          date: {
+            start: 'Setembro / 2016',
+            end: 'Agosto / 2016'
+          },
+          techs: ['html-css', 'jquery', 'php']
+        },
+        {
+          slug: 'sistema-petra',
+          name: 'Petra Gestão',
+          resume: 'Criação de sistema de workflow para contratação de novos colaboradores para as empresas parceiras',
+          link: 'https://www.petracorporate.com.br/',
+          company: {
+            name: 'System Solution',
+            link: 'https://www.systemsolution.com.br'
+          },
+          date: {
+            start: 'Maio / 2016',
+            end: 'Agosto / 2016'
           },
           techs: ['html-css', 'jquery', 'php']
         },
@@ -121,8 +121,8 @@ export default {
             link: 'https://www.midiainterativa.com.br'
           },
           date: {
-            start: '',
-            end: ''
+            start: 'Setembro / 2015',
+            end: 'Setembro / 2015'
           },
           techs: ['html-css', 'jquery']
         },
@@ -136,8 +136,8 @@ export default {
             link: 'https://www.midiainterativa.com.br'
           },
           date: {
-            start: '',
-            end: ''
+            start: 'Agosto / 2015',
+            end: 'Agosto / 2015'
           },
           techs: ['html-css', 'jquery']
         }
