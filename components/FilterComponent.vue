@@ -14,7 +14,7 @@ export default {
   props: {
     techs: {
       required: true,
-      type: Object
+      type: Array
     }
   },
   methods: {

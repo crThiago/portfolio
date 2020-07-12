@@ -9,7 +9,7 @@
         <FilterComponent :techs="techs" />
       </div>
       <div class="portfolio__cards justify--space-around flex--wrap">
-        <CardPortfolio v-for="project of projects" :key="project.slug" :project="project" />
+        <CardPortfolio v-for="project of projectsFilter" :key="project.slug" :project="project" />
       </div>
     </main>
   </div>
@@ -24,7 +24,13 @@ export default {
     return {
       title: 'Portfólio',
       projects: Projects,
-      techs: Techs
+      techs: Techs,
+      tech: this.$route.params.tech
+    }
+  },
+  computed: {
+    projectsFilter () {
+      return this.projects.filter(p => p.techs.find(t => this.tech === t))
     }
   },
   head () {
