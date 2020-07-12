@@ -48,6 +48,7 @@ export default {
   }
 
   &__name {
+    text-align: center;
     height: 0px;
     display: none;
     font-size: 0.7em;

@@ -7,7 +7,7 @@
           Programador <strong>Front-end</strong> & <strong>Back-end</strong>
         </h1>
         <h2 class="home__description__subtitle font--h2 font--bold color--secondary">
-          Me chamo Thiago Costa tenho 30 anos e trabalho como desenvolvedor web a 6 anos,
+          Me chamo Thiago Costa tenho 30 anos e trabalho como desenvolvedor web a 5 anos,
           tenho graduação no curso de Engenharia de Computação pela Unopar de Londrina - PR.
         </h2>
       </div>

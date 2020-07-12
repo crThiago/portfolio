@@ -22,7 +22,9 @@
         Tech
       </p>
       <div class="card__techs justify--space-around">
-        <img v-for="tech of project.techs" :key="tech" :src="techimage(tech)" :alt="tech">
+        <nuxt-link v-for="tech of project.techs" :key="tech" :to="`/portfoliopage/${tech}`">
+          <img :src="techimage(tech)" :alt="tech">
+        </nuxt-link>
       </div>
     </div>
     <span class="card__resume" />
@@ -67,7 +69,7 @@ export default {
     transition: all .3s;
     z-index: 4;
 
-    &:hover {
+    &:hover, &:active {
       transform: scale(55);
       transition: all .3s;
       &  + .resume__text {

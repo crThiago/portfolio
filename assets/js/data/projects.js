@@ -17,7 +17,7 @@ export default [
   {
     slug: 'anuance',
     name: 'Nuance',
-    resume: 'Criação de site',
+    resume: 'Criação do site e o Desing',
     link: 'https://www.anuance.com.br',
     company: {
       name: 'Nuance',
@@ -32,7 +32,7 @@ export default [
   {
     slug: 'ecommerce-esinstrumentos',
     name: 'ES Instrumentos Musicais',
-    resume: 'Criação de e-commerce',
+    resume: 'Criação de e-commerce com integração ao dropshipping',
     link: 'https://www.esinstrumentosmusicais.com.br/',
     company: {
       name: 'Mídia Interativa',
