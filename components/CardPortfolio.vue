@@ -1,5 +1,6 @@
 <template>
   <div class="card bg--white sdw">
+    <div class="card__resume"></div>
     <div class="card__image">
       <img :src="thumbnail" :alt="project.name">
     </div>
@@ -36,19 +37,39 @@ export default {
       required: true
     }
   },
-  methods: {
-    techimage: tech => require(`~/assets/images/techs/${tech}.svg`)
-  },
   computed: {
     thumbnail () {
       return require(`~/assets/images/portfolio/${this.project.slug}.jpeg`)
     }
+  },
+  methods: {
+    techimage: tech => require(`~/assets/images/techs/${tech}.svg`)
   }
 }
 </script>
 
 <style lang="scss" scoped>
 .card {
+  flex: 1 1 300px;
+  position: relative;
+
+  &__resume {
+    bottom: 5px;
+    left: 5px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #35495e;
+    border-radius: 50px;
+    transition: all .3s;
+    z-index: 4;
+
+    &:hover {
+      transform: scale(55);
+      transition: all .3s;
+    }
+  }
+
   &__title {
     margin: 10px 0 20px ;
   }

@@ -11,18 +11,18 @@
           Portfólio
         </nuxt-link>
       </li>
-      <li class="d--inline">
+      <!-- <li class="d--inline">
         <nuxt-link class="link" to="/blog">
           Blog
         </nuxt-link>
-      </li>
+      </li> -->
     </ul>
   </nav>
 </template>
 
 <style lang="scss">
 .menu {
-  width: 300px;
+  width: 200px;
   margin-top: 20px;
   padding: 20px 30px;
   border-radius: 50px;
